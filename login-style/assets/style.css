@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@351&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+/* CUERPO */
+body {
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+/* OPTIONS */
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.600);
+    font-size: 0.8em;
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.600);
+    font-size: 0.8em;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* BOX */
+.login-box {
+    width: 400px;
+    height: 625px;
+    background: rgba(255, 255, 255, 0.795);
+    color: rgba(0, 0, 0, 0.678);
+    top: 50.2%;
+    left: 80%;
+    position: absolute;
+    /* TRANSFORM TRASLATE (CON ESTO PODEMOS UBICAR EL BOX EN EL CENTRO CON -50% (X) EL CUAL CENTRA EN DIRECCION IZQUIERDA O DERECHA Y -50% (Y) QUE CENTRA EN DIRECCION ARRIBA O ABAJO */
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 40px;
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* LOGO */
+.login-box .logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    /* border-radius: 30%; */
+    top: -50px;
+    left: 36%;
+    width: 150px;
+    height: 150px;
+    opacity: .9;
+}
+
+/* BUTTON LOGIN */
+.login-box .logIn {
+    background-color: #abcba69a;
+    border-radius: 5px;
+    width: 65%;
+    padding: 1.5%;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+.login-box h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* LABEL */
+.login-box label {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* INPUTS */
+.login-box input {
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.062);
+    outline: none;
+
+}
+
+/* POSITION: ABSOLUTE LO UTILIZAMOS PARA MOVER EL ELEMENTO EN CUALQUIER DIRECCION */
+.iconFace {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 30%;
+    top: 88%;
+    left: 31%;
+    width: 30px;
+    height: 30px;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.iconInsta {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 30%;
+    top:88%;
+    left: 41%;
+    width: 30px;
+    height: 30px;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.iconTwitt {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 30%;
+    top: 88%;
+    left: 51%;
+    width: 30px;
+    height: 30px;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.youTube {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 30%;
+    top:88%;
+    left: 61%;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.loginGoogle{
+
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 57%;
+    left: 33%;
+
+}
+
+.loginFacebook{
+    width: 50px;
+    height:50px;
+    position: absolute;
+    top: 57.5%;
+    left: 56%;
+}
+
+.targetBox{
+    width: 800px;
+    height: 625px;
+    font-family: 'Alfa Slab One', cursive;
+    background: rgba(255, 255, 255, 0.795);
+    color: rgba(0, 0, 0, 0.678);
+    top: 44.5%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 40px;
+    padding: 50px;
+    text-align: center;
+    font-size: 80px;
+}
+
+
